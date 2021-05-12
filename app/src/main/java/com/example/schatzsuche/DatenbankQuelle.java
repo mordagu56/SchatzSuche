@@ -69,7 +69,7 @@ public class DatenbankQuelle implements SearchPerson{
 
     @Override
     public Vector<Person> getPerson(String s) {
-
+  //degisiklilker
         return null;
     }
 }
