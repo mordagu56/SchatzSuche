@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SchatzSuche</string>
+    <string name="Person">Person</string>
 </resources>

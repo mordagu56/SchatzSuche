@@ -1,4 +1,4 @@
-package com.example.schatzsuche;
+package com.example.ufindapplicationhci;
 
 import java.util.Vector;
 

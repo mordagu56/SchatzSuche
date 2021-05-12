@@ -1,4 +1,4 @@
-package com.example.schatzsuche;
+package com.example.ufindapplicationhci;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

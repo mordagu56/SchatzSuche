@@ -9,33 +9,40 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="match_parent"
-        android:layout_height="61dp"
-        android:layout_marginTop="20dp"
+        android:id="@+id/searchText"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:text="search for a Person/Course... " />
 
     <Button
         android:id="@+id/searchButton"
-        android:layout_width="133dp"
+        android:layout_width="123dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
-        android:text="search" />
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:background="#4CAF50"
+        android:outlineAmbientShadowColor="#4CAF50"
+        android:outlineSpotShadowColor="#4CAF50"
+        android:text="SEARCH"
+        app:iconTint="#2AFFFFFF"
+        app:rippleColor="#FFFFFF" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="136dp"
+        android:id="@+id/button4"
+        android:layout_width="159dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Create Person" />
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="80dp"
+        android:text="Bachelor" />
 
-    <ListView
-        android:id="@android:id/list"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"></ListView>
-
-
-
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="Master" />
 </LinearLayout>
